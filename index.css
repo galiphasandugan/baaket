@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ball{
+    animation: ball 0.4s infinite linear ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 30vh; 
+}
+
+@keyframes ball {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
